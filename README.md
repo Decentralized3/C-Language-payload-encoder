@@ -1,5 +1,6 @@
-**This repository contains a simple example of an XOR-encoded payload execution in C. The code demonstrates how to decode an XOR-encoded payload and execute it in memory. This project showcases my understanding of low-level programming, memory management, and basic encryption techniques.
-**
+This repository contains a simple example of an XOR-encoded payload execution in C. The code demonstrates how to decode an XOR-encoded payload and execute it in memory. This project showcases my understanding of low-level programming, memory management, and basic encryption techniques.
+
+
 Project Files:
 
 main.c: The main C file containing the XOR decoding and payload execution logic.
@@ -26,13 +27,15 @@ Step 2: Save the code to a file named main.c.
 Step 3: Open a terminal or command prompt and navigate to the directory containing main.c.
 
 Step 4: Compile the code using a C compiler:
+```bash
 "gcc -o xor_payload main.c"
-
+```
 or if you are using Visual Studio, create a new project, add main.c to the project, and compile it.
 
 Step 5: Run the compiled executable:
+```bash
 "./xor_payload"
-
+```
 **Expected Outcome:**
 
 The program will decode the XOR-encoded payload and execute it in memory. Make sure to replace the placeholder encoded payload with a valid payload to see the execution.
